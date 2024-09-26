@@ -39,22 +39,29 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a.btn {
+    background: #0056b3;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 section {
     padding: 20px 0;
 }
 
-.book-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.cover-image {
+    width: 100%;
+    height: auto;
 }
 
-.book-item {
-    border: 1px solid #007BFF;
-    padding: 10px;
-    margin: 10px;
-    width: 30%;
-    text-align: center;
+.feature {
+    margin: 20px 0;
+}
+
+.feature img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
 }
 
 footer {
